@@ -7,7 +7,6 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
     <xs:complexType name="NationalParkType">
         <xs:sequence>
             <xs:element name="Name" type="xs:string"/>
@@ -16,7 +15,6 @@
         </xs:sequence>
         <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
     </xs:complexType>
-
     <xs:complexType name="AddressType">
         <xs:sequence>
             <xs:element name="Number" type="xs:string"/>
